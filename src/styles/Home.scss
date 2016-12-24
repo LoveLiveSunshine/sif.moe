@@ -1,0 +1,36 @@
+body {
+    font-family: "Helvetica Neue", "arial", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-size: 12pt;
+}
+
+.loading {
+    text-align: center;
+}
+
+.pair {
+    .header {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid #000;
+        font-weight: bold;
+        margin-bottom: -1px;
+        text-align: center;
+    }
+    .in {
+        padding: 5px;
+    }
+    .content {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        border: 1px solid #000;
+        margin-bottom: 4px;
+        table {
+            img {
+                width: 100%;
+            }
+            tr {
+                text-align: center;
+            }
+        }
+    }
+}
